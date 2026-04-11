@@ -1,1 +1,2 @@
 
+print("Strings practice")
