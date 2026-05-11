@@ -1,3 +1,4 @@
+# https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
 
 # Exercise 1. Print first 10 natural numbers using while loop
 
@@ -93,15 +94,40 @@ my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 for i in range(1,len(my_list),2):
     print(my_list[i], end=" ")
 
+print(" ")
+
 print("----------Task 9--------------")
 
 # Exercise 10. Print list in reverse order using a loop
 
 list1 = [10, 20, 30, 40, 50]
 
-list2 = reversed(list1)
+for i in reversed(list1):
+    print(i)
 
-print(list2)
+print("----------Task 10--------------")
+
+# Exercise 11. Reverse a string using a for loop (no slicing)
+
+
+# Exercise 12. Count vowels and consonants in a sentence
+
+sent = "I am so happy, its May 9, 2027 and the 5 seeds that i had planted an year before are grown into reality today."
+vovels = "aeiou"
+v_count = 0
+c_count = 0
+
+
+for i in range(0,len(sent)):
+    if sent[i] == "a" or "e" or "i" or "o" or "u":
+        vovels += 1
+    else:
+        consonants += 1
+
+print(f"There are total {vovels} Vovels in the sentence and {consonants} Consonants")
+
+
+
     
 
 
