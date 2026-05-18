@@ -10,3 +10,14 @@ b = 5
 res = add(a,b)
 
 print(res)
+
+
+print("===================")
+
+a = 7
+b = 3
+
+if a > b:
+    print(a)
+else:
+    print(b)
