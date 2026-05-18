@@ -109,29 +109,69 @@ print("----------Task 10--------------")
 
 # Exercise 11. Reverse a string using a for loop (no slicing)
 
+str = "Python"
+rev_str = ""
+
+for char in str:
+    rev_str = char + rev_str
+print(rev_str)
+
+print("----------Task 11--------------")
+
 
 # Exercise 12. Count vowels and consonants in a sentence
 
-sent = "I am so happy, its May 9, 2027 and the 5 seeds that i had planted an year before are grown into reality today."
-vovels = "aeiou"
+sent = "Python is greate"
+vovels = "aeiouAEIOU"
 v_count = 0
 c_count = 0
 
+for char in sent:
+    if char.isalpha():
+        if char in vovels:
+            v_count += 1
+        else:
+            c_count += 1
 
-for i in range(0,len(sent)):
-    if sent[i] == "a" or "e" or "i" or "o" or "u":
-        vovels += 1
-    else:
-        consonants += 1
+print(v_count)
+print(c_count)    
 
-print(f"There are total {vovels} Vovels in the sentence and {consonants} Consonants")
+#print(f"There are total {vovels} Vovels in the sentence and {consonants} Consonants")
 
+print("----------Task 12--------------")
 
+# Exercise 13. Count total number of digits in a number
 
+num = 78364
+count = 0
+
+num = num // 10
+while num != 0:
+    count+=1
+print(count)
+# Exercise 14. Reverse an integer number
+
+print("----------Task 13--------------")
+
+# Exercise 14. Reverse an integer number
+
+num = 1234
+rev_num = 0
+
+while num != 0:
+    num = num % 10
     
+print(rev_num)
 
+
+print("----------Task 14--------------")
+
+# Exercise 15. Find largest and smallest digit in a number
+
+num = 36478
 
 
         
-        
+print("----------Task 15--------------")
+
 
