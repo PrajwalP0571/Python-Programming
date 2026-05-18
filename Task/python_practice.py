@@ -21,3 +21,10 @@ if a > b:
     print(a)
 else:
     print(b)
+
+print("=================")
+
+import math
+
+n = 6
+print(math.factorial(n))
