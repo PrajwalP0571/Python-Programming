@@ -8,3 +8,7 @@ print(res)
 
 nums = [10, 5]
 print(sum(nums))
+
+
+import operator
+print(operator.add(10, 5))
