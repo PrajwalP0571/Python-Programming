@@ -4,3 +4,7 @@ a = 15
 b = 12
 res = a + b
 print(res)
+
+
+nums = [10, 5]
+print(sum(nums))
